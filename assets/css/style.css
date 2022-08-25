@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/****************common classes******************/
+.small-circle {
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 80px;
+    /*transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: white;*/
+}
+.hero-head-font{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 53px;
+}
+.hero-para-font{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 19px;
+}
+.img-width{
+    width: 90%;
+}
+.ptb-6{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.nav-heading-size{
+    font-size: 4rem;
+}
+.btn {
+    border-color: white;
+    height: 56px;
+    width: 212px;
+    border-radius: 28px;
+    border-width: 3px;
+}
+.kfc-logo{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+}
