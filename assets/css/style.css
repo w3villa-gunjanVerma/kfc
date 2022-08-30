@@ -6,43 +6,191 @@
 /****************common classes******************/
 .small-circle {
     background-color: white;
-    height: 50px;
-    width: 50px;
+    height: 45px;
+    width: 45px;
     border-radius: 80px;
-    /*transform: translateY(-50%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1rem;
-    color: white;*/
 }
-.hero-head-font{
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 53px;
-}
-.hero-para-font{
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 19px;
-}
-.img-width{
-    width: 90%;
-}
-.ptb-6{
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-}
-.nav-heading-size{
-    font-size: 4rem;
+.ptb-5{
+    padding-top: 110px;
+    padding-bottom:110px;
 }
 .btn {
-    border-color: white;
-    height: 56px;
-    width: 212px;
+    
     border-radius: 28px;
-    border-width: 3px;
+
 }
+.slider{
+    position: relative;
+    padding-top: 4rem;
+   
+}
+.slider .owl-item.active.center .slider-card{
+    transform: scale(1.15);
+    opacity: 1;
+    background-color: aquamarine;
+}
+
+.slider .owl-item.active.center .slider-card-sec-5{
+    transform: scale(1.15);
+    opacity: 1;
+    background-color: aquamarine;
+}
+.btn-hero{
+    border-radius: 34px;
+    background-color: transparent;
+    border-width: medium;
+    border-color: white;
+    padding-left: 62px;
+    padding-right: 71px;
+    height: 64px;
+}
+/******reset bootstrap********/
+.navbar-brand{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.bg-danger{
+    background-color: #ff3700e8!important;
+}
+.btn {
+    
+    border-radius: 28px;
+
+}
+.owl-theme .owl-dots{
+    text-align: left !important;
+}
+
+element.style {
+}
+.owl-carousel .owl-item img {
+    width: 72% !important;
+}
+.text-muted {
+    color: #e6f3ff96!important;
+}
+/*******hero section1************/
+.hero-head-font{
+    font-family: 'Titillium Web';
+    font-size: 65px;
+    font-weight: 700px;
+}
+.hero-para-font{
+    font-family: fantasy;
+    font-size: 20px;
+    text-align: justify;
+}
+.hero-para-color{
+    color: #f0f6fbb0!
+}
+.ptb-hero{
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+.container.ptb-hero button.owl-dot span {
+    width: 16px;
+}
+
 .kfc-logo{
-    font-family: 'Titillium Web', sans-serif;
+    font-family:'FontAwesome';
     font-weight: 700;
     font-size: 80px;
+}
+/**********section2************/
+
+.btn-alignment {
+    padding-bottom: 13px;
+    position: absolute;
+    transform: translateY(-50%);
+    padding-left: 66px;
+    padding-right: 66px;
+    padding-top: 13px;
+}
+
+/**********section3*************/
+.bg-color{
+    background-color:rgb(213 137 73 / 34%);
+}
+.cardred{
+    background-color: #e80b2ed1;
+    border-radius: 15px;
+    box-shadow: 0px 1px 3px 1px #9ea71a3d !important;
+}
+.card-heading{
+    font-size: 15px;
+}
+.btn-padding{
+    padding-top: 5.5rem;
+}
+.slider2{
+    position: relative;
+   
+}
+    
+.para-font{
+    font-family: inherit;
+    font-size: 31px;
+    font-weight: 800;
+}
+.slider2 .owl-item.active.center .slider-card{
+    transform: scale(1.15);
+    opacity: 1;
+    background-color: aquamarine;
+}
+.bg-color {
+    background-color: #fff!important;
+    border-radius: 15px;
+    box-shadow: 0px 1px 3px 1px #9ea71a3d !important;
+}
+
+.slider2 .owl-item.active.center .slider-card-sec-5{
+    transform: scale(1.15);
+    opacity: 1;
+    background-color: aquamarine;
+}
+.font-family{
+    font-family: 'FontAwesome';
+    font-size: 500;
+}
+/**********section-4 overlap images************/
+  .imgA1 {
+  
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+ 
+.imgB1 {
+    
+    top: 0;
+    left: 0;
+    z-index: 2;
+    
+}
+.img1-height{
+    width: 100%;
+    height: 120%;
+}
+.img2-height{
+    height: 110%;
+    width: 100%;
+}
+.back{
+    background-color: aquamarine;
+}
+/**********section-4**********/
+.pt-12{
+    padding-top: 12rem;
+}
+.footer-ptb{
+    padding-top: 2.5rem;
+    padding-bottom: 3rem;
+}
+ul>li{
+    line-height: 2;
+}
+.nav-bottom{
+    font-family:'FontAwesome';
+    font-weight: 700;
+    font-size: 60px;
 }
