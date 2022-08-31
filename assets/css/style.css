@@ -44,6 +44,10 @@
     padding-right: 71px;
     height: 64px;
 }
+.feedback{
+    font-family: 'Titillium Web';
+    font-size: 21px;
+}
 /******reset bootstrap********/
 .navbar-brand{
     font-size: 1rem;
@@ -95,18 +99,48 @@ element.style {
     font-family:'FontAwesome';
     font-weight: 700;
     font-size: 80px;
+    margin: 0;
+}
+.navbar{
+    padding: 0;
 }
 /**********section2************/
 
 .btn-alignment {
-    padding-bottom: 13px;
+   position: absolute;
+   width: 167px;
+   padding: 12px;
+   top: -24px;
+}
+.position{
+    position: relative;
+}
+.owl-nav{
+    /*position:  absolute;*/
+}
+.owl-nav button{
     position: absolute;
-    transform: translateY(-50%);
-    padding-left: 66px;
-    padding-right: 66px;
-    padding-top: 13px;
+    
+    top: 100px;
+
+}
+.owl-nav .owl-prev{
+    left: -15px;
+}
+.owl-nav .owl-next{
+    right: -15px;
 }
 
+.owl-carousel2{
+    width:  calc(100% - 30px);
+    margin: auto;
+}
+.owl-dots .dots{
+    display: none;
+}
+.slider .owl-dots{
+    display: none;
+}
 /**********section3*************/
 .bg-color{
     background-color:rgb(213 137 73 / 34%);
@@ -131,6 +165,7 @@ element.style {
     font-family: inherit;
     font-size: 31px;
     font-weight: 800;
+    line-height: 1.5;
 }
 .slider2 .owl-item.active.center .slider-card{
     transform: scale(1.15);
@@ -152,31 +187,89 @@ element.style {
     font-family: 'FontAwesome';
     font-size: 500;
 }
+.img-radius{
+    border-radius: 140px;
+    padding: 22px;
+}
+.sec3-para{
+        padding: 23px;
+        font-size: 31px;
+        font-weight: 600;
+        font-family: 'Titillium Web';
+        line-height: 1.2;
+        margin: 0;
+}
+.sec3-para2{
+  
+    font-size: 31px;
+    font-weight: 600;
+    font-family: 'Titillium Web';
+    line-height: 1.2;
+    margin: 0;
+}
+.sec-3-btn{
+    padding: 11px;
+    width: 215px;
+}
 /**********section-4 overlap images************/
   .imgA1 {
-  
-    top: 0;
-    left: 0;
-    z-index: 1;
+    width: 100%;
+    
+    top: -18px;
+
+    z-index: 2;
+   
   }
  
 .imgB1 {
-    
-    top: 0;
-    left: 0;
-    z-index: 2;
-    
-}
-.img1-height{
+    position: absolute;
     width: 100%;
-    height: 120%;
+    /* height: 446px; */
+    position: relative;
+    /* top: 1px; */
+    z-index: 1;
+    left: -81px;
+    transform: scale(0.8);
+    top: -24px;
 }
-.img2-height{
-    height: 110%;
+.img-height{
     width: 100%;
+    height: 100%;
 }
 .back{
     background-color: aquamarine;
+}
+.para-font{
+    margin: 0;
+    font-size: 47px;
+    font-family: inherit;
+    font-weight: 900;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+}
+.slider-card-margin{
+    margin-top: 28px;
+    margin-left: 30px;
+}
+.account{
+border: none;
+color: white;
+background-color: black;
+padding: 5px;
+width: 266px;
+border-radius: 31px;
+}
+.apple{
+    font-size: 57px;
+    padding-right: 10px;
+    padding-left: 34px;
+}
+.ptb{
+    padding-bottom: 40px;
+}
+.border-rad{
+    border-radius: 14px;
 }
 /**********section-4**********/
 .pt-12{
@@ -194,3 +287,56 @@ ul>li{
     font-weight: 700;
     font-size: 60px;
 }
+.twitter-circle {
+    background-color: blue;
+    height: 45px;
+    width: 45px;
+    border-radius: 80px;
+}
+.parent{
+    position: absolute;
+    top: -29px;
+}
+.owl-carousel3 .owl-item .item{
+    width: 50%;
+}
+.bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paddingl{
+    padding-left: 3rem;
+}
+/*box-shadow: -5px 1px 19px 1px #e8b90a3b;*/
+.twitter-circle{    
+position: absolute;
+background-color: #3fabd9;
+height: 50px;
+width: 50px;
+border-radius: 80px;
+transform: translateY(-207%);
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 2.2rem;
+color: white;
+left: -5px;
+}
+.padding-left{
+    padding-left: 3.5rem;
+}
+.instagram-circle{    
+    position: absolute;
+    background-color:pink;
+    height: 50px;
+    width: 50px;
+    border-radius: 80px;
+    transform: translateY(-207%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.2rem;
+    color: white;
+    left: -5px;
+    }
