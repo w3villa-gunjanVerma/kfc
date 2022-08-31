@@ -1,256 +1,337 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 /****************common classes******************/
+.ln-1{
+	line-height: 1;
+}
+.font-12{
+	font-size: 12px;
+}
+.font-20{
+	font-size: 20px;
+}
+
 .small-circle {
-    background-color: white;
-    height: 45px;
-    width: 45px;
-    border-radius: 80px;
+	background-color: white;
+	height: 45px;
+	width: 45px;
+	border-radius: 80px;
 }
 .ptb-5{
-    padding-top: 110px;
-    padding-bottom:110px;
+	padding-top: 110px;
+	padding-bottom:110px;
 }
 .btn {
-    
-    border-radius: 28px;
+	
+	border-radius: 28px;
 
 }
 .slider{
-    position: relative;
-    padding-top: 4rem;
+	position: relative;
+	padding-top: 4rem;
    
 }
 .slider .owl-item.active.center .slider-card{
-    transform: scale(1.15);
-    opacity: 1;
-    background-color: aquamarine;
+	transform: scale(1.15);
+	opacity: 1;
+	background-color: aquamarine;
 }
 
 .slider .owl-item.active.center .slider-card-sec-5{
-    transform: scale(1.15);
-    opacity: 1;
-    background-color: aquamarine;
+	transform: scale(1.15);
+	opacity: 1;
+	background-color: aquamarine;
 }
 .btn-hero{
-    border-radius: 34px;
-    background-color: transparent;
-    border-width: medium;
-    border-color: white;
-    padding-left: 62px;
-    padding-right: 71px;
-    height: 64px;
+	border-radius: 34px;
+	background-color: transparent;
+	border-width: medium;
+	border-color: white;
+	padding-left: 62px;
+	padding-right: 71px;
+	height: 64px;
 }
 .feedback{
-    font-family: 'Titillium Web';
-    font-size: 21px;
+	font-family: 'Titillium Web';
+	font-size: 21px;
 }
 /******reset bootstrap********/
 .navbar-brand{
-    font-size: 1rem;
-    font-weight: bold;
+	font-size: 1rem;
+	font-weight: bold;
 }
 .bg-danger{
-    background-color: #ff3700e8!important;
+	background-color: #ff3700e8!important;
 }
 .btn {
-    
-    border-radius: 28px;
+	
+	border-radius: 28px;
 
 }
 .owl-theme .owl-dots{
-    text-align: left !important;
+	text-align: left !important;
 }
 
 element.style {
 }
 .owl-carousel .owl-item img {
-    width: 72% !important;
+	width: 72% !important;
 }
 .text-muted {
-    color: #e6f3ff96!important;
+	color: #e6f3ff96!important;
 }
 /*******hero section1************/
 .hero-head-font{
-    font-family: 'Titillium Web';
-    font-size: 65px;
-    font-weight: 700px;
+	font-family: 'Titillium Web';
+	font-size: 65px;
+	font-weight: 700px;
 }
 .hero-para-font{
-    font-family: fantasy;
-    font-size: 20px;
-    text-align: justify;
+	font-family: fantasy;
+	font-size: 20px;
+	text-align: justify;
 }
 .hero-para-color{
-    color: #f0f6fbb0!
+	color: #f0f6fbb0!
 }
 .ptb-hero{
-    padding-top: 3rem;
-    padding-bottom: 4rem;
+	padding-top: 3rem;
+	padding-bottom: 4rem;
 }
 .container.ptb-hero button.owl-dot span {
-    width: 16px;
+	width: 16px;
 }
 
 .kfc-logo{
-    font-family:'FontAwesome';
-    font-weight: 700;
-    font-size: 80px;
-    margin: 0;
+	font-family:'FontAwesome';
+	font-weight: 700;
+	font-size: 80px;
+	margin: 0;
 }
 .navbar{
-    padding: 0;
+	padding: 0;
 }
 /**********section2************/
 
 .btn-alignment {
-   position: absolute;
-   width: 167px;
-   padding: 12px;
-   top: -24px;
+    position: absolute;
+    width: 170px;
+    padding: 12px;
+    top: -24px;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 .position{
-    position: relative;
+	position: relative;
 }
+
+
+/*Mobile App*/
+.mobile-app{
+	background-image: linear-gradient(45deg, #ffb638, #ffa830);
+	padding: 70px 0;
+	position : relative;
+}
+/*.mobile-app:before{
+	content: "";
+	position:absolute;
+	background-color: red;
+	width: 400px;
+	height: 400px;
+}*/
+.mobile-app .img-parent{
+  position: absolute;
+  top: -105px;
+}
+.mobile-app .img-parent .imgA1{
+	width: 300px;
+	height: 450px;
+	box-shadow: 0 8px 24px 0 #878787;
+}
+
+.mobile-app .img-parent .imgA1 img{
+	object-fit: cover;
+}
+.mobile-app .img-parent .imgB1{
+	position:  absolute;
+	left: 220px;
+	width: 320px;
+	top: -25px;
+	box-shadow: 0 8px 24px 0 #878787;
+}
+.mobile-app .mobile-right-area .mobile-heading{
+	font-size: 40px;
+	line-height:1;
+	color: white;
+	font-weight: 700;
+}
+.mobile-app .mobile-right-area .mobile-download a{
+	background: black;
+	color: white;
+	display: flex;
+  padding: 15px 20px;
+  border-radius: 40px;
+}
+.mobile-app .mobile-right-area .mobile-download a:hover{
+	text-decoration: none;
+	background: #777;
+}
+.mobile-app .mobile-right-area .mobile-download a i{
+	width: 40px;
+	font-size: 30px;
+}
+
+
+/*Owl Cusom Navigations*/
 .owl-nav{
-    /*position:  absolute;*/
+
 }
 .owl-nav button{
-    position: absolute;
-    
-    top: 100px;
+	position: absolute;
+	top: 100px;
+	border: unset;
+	background: unset;
+	width: 14px;
+	font-size: 24px;
+	color: red;
+}
+.owl-nav button{
+	position: absolute;
+	
+	top: 100px;
 
 }
 .owl-nav .owl-prev{
-    left: -15px;
+	left: -15px;
 }
 .owl-nav .owl-next{
-    right: -15px;
+	right: -15px;
 }
 
 .owl-carousel2{
-    width:  calc(100% - 30px);
-    margin: auto;
+	width:  calc(100% - 30px);
+	margin: auto;
 }
 .owl-dots .dots{
-    display: none;
+	display: none;
 }
 .slider .owl-dots{
-    display: none;
+	display: none;
 }
 /**********section3*************/
 .bg-color{
-    background-color:rgb(213 137 73 / 34%);
+	background-color:rgb(213 137 73 / 34%);
 }
 .cardred{
-    background-color: #e80b2ed1;
-    border-radius: 15px;
-    box-shadow: 0px 1px 3px 1px #9ea71a3d !important;
+	background-color: #e80b2ed1;
+	border-radius: 15px;
+	box-shadow: 0px 1px 3px 1px #9ea71a3d !important;
 }
 .card-heading{
-    font-size: 15px;
+	font-size: 15px;
 }
 .btn-padding{
-    padding-top: 5.5rem;
+	padding-top: 5.5rem;
 }
 .slider2{
-    position: relative;
+	position: relative;
    
 }
-    
+	
 .para-font{
-    font-family: inherit;
-    font-size: 31px;
-    font-weight: 800;
-    line-height: 1.5;
+	font-family: inherit;
+	font-size: 31px;
+	font-weight: 800;
+	line-height: 1.5;
 }
 .slider2 .owl-item.active.center .slider-card{
-    transform: scale(1.15);
-    opacity: 1;
-    background-color: aquamarine;
+	transform: scale(1.15);
+	opacity: 1;
+	background-color: aquamarine;
 }
 .bg-color {
-    background-color: #fff!important;
-    border-radius: 15px;
-    box-shadow: 0px 1px 3px 1px #9ea71a3d !important;
+	background-color: #fff!important;
+	border-radius: 15px;
+	box-shadow: 0px 1px 3px 1px #9ea71a3d !important;
 }
 
 .slider2 .owl-item.active.center .slider-card-sec-5{
-    transform: scale(1.15);
-    opacity: 1;
-    background-color: aquamarine;
+	transform: scale(1.15);
+	opacity: 1;
+	background-color: aquamarine;
 }
 .font-family{
-    font-family: 'FontAwesome';
-    font-size: 500;
+	font-family: 'FontAwesome';
+	font-size: 500;
 }
 .img-radius{
-    border-radius: 140px;
-    padding: 22px;
+	border-radius: 140px;
+	padding: 22px;
 }
 .sec3-para{
-        padding: 23px;
-        font-size: 31px;
-        font-weight: 600;
-        font-family: 'Titillium Web';
-        line-height: 1.2;
-        margin: 0;
+		padding: 23px;
+		font-size: 31px;
+		font-weight: 600;
+		font-family: 'Titillium Web';
+		line-height: 1.2;
+		margin: 0;
 }
 .sec3-para2{
   
-    font-size: 31px;
-    font-weight: 600;
-    font-family: 'Titillium Web';
-    line-height: 1.2;
-    margin: 0;
+	font-size: 31px;
+	font-weight: 600;
+	font-family: 'Titillium Web';
+	line-height: 1.2;
+	margin: 0;
 }
 .sec-3-btn{
-    padding: 11px;
-    width: 215px;
+	padding: 11px;
+	width: 215px;
 }
 /**********section-4 overlap images************/
   .imgA1 {
-    width: 100%;
-    
-    top: -18px;
+	width: 100%;
+	
+	top: -18px;
 
-    z-index: 2;
+	z-index: 2;
    
   }
  
 .imgB1 {
-    position: absolute;
-    width: 100%;
-    /* height: 446px; */
-    position: relative;
-    /* top: 1px; */
-    z-index: 1;
-    left: -81px;
-    transform: scale(0.8);
-    top: -24px;
+	position: absolute;
+	width: 100%;
+	/* height: 446px; */
+	position: relative;
+	/* top: 1px; */
+	z-index: 1;
+	left: -81px;
+	transform: scale(0.8);
+	top: -24px;
 }
 .img-height{
-    width: 100%;
-    height: 100%;
+	width: 100%;
+	height: 100%;
 }
 .back{
-    background-color: aquamarine;
+	background-color: aquamarine;
 }
 .para-font{
-    margin: 0;
-    font-size: 47px;
-    font-family: inherit;
-    font-weight: 900;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    color: white;
+	margin: 0;
+	font-size: 47px;
+	font-family: inherit;
+	font-weight: 900;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: white;
 }
 .slider-card-margin{
-    margin-top: 28px;
-    margin-left: 30px;
+	margin-top: 28px;
+	margin-left: 30px;
 }
 .account{
 border: none;
@@ -261,52 +342,52 @@ width: 266px;
 border-radius: 31px;
 }
 .apple{
-    font-size: 57px;
-    padding-right: 10px;
-    padding-left: 34px;
+	font-size: 57px;
+	padding-right: 10px;
+	padding-left: 34px;
 }
 .ptb{
-    padding-bottom: 40px;
+	padding-bottom: 40px;
 }
 .border-rad{
-    border-radius: 14px;
+	border-radius: 14px;
 }
 /**********section-4**********/
 .pt-12{
-    padding-top: 12rem;
+	padding-top: 12rem;
 }
 .footer-ptb{
-    padding-top: 2.5rem;
-    padding-bottom: 3rem;
+	padding-top: 2.5rem;
+	padding-bottom: 3rem;
 }
 ul>li{
-    line-height: 2;
+	line-height: 2;
 }
 .nav-bottom{
-    font-family:'FontAwesome';
-    font-weight: 700;
-    font-size: 60px;
+	font-family:'FontAwesome';
+	font-weight: 700;
+	font-size: 60px;
 }
 .twitter-circle {
-    background-color: blue;
-    height: 45px;
-    width: 45px;
-    border-radius: 80px;
+	background-color: blue;
+	height: 45px;
+	width: 45px;
+	border-radius: 80px;
 }
 .parent{
-    position: absolute;
-    top: -29px;
+	position: absolute;
+	top: -29px;
 }
 .owl-carousel3 .owl-item .item{
-    width: 50%;
+	width: 50%;
 }
 .bar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .paddingl{
-    padding-left: 3rem;
+	padding-left: 3rem;
 }
 /*box-shadow: -5px 1px 19px 1px #e8b90a3b;*/
 .twitter-circle{    
@@ -324,19 +405,19 @@ color: white;
 left: -5px;
 }
 .padding-left{
-    padding-left: 3.5rem;
+	padding-left: 3.5rem;
 }
 .instagram-circle{    
-    position: absolute;
-    background-color:pink;
-    height: 50px;
-    width: 50px;
-    border-radius: 80px;
-    transform: translateY(-207%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2.2rem;
-    color: white;
-    left: -5px;
-    }
+	position: absolute;
+	background-color:pink;
+	height: 50px;
+	width: 50px;
+	border-radius: 80px;
+	transform: translateY(-207%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2.2rem;
+	color: white;
+	left: -5px;
+	}
