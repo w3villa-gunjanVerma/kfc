@@ -222,6 +222,10 @@ element.style {
 .slider .owl-dots{
 	display: none;
 }
+.owl-nav button{
+    border: unset;
+    
+}
 /**********section3*************/
 .bg-color{
 	background-color:rgb(213 137 73 / 34%);
