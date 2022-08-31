@@ -111,6 +111,9 @@ element.style {
    width: 167px;
    padding: 12px;
    top: -24px;
+   left: 0;
+   right: 0;
+   margin: auto;
 }
 .position{
     position: relative;
@@ -140,6 +143,10 @@ element.style {
 }
 .slider .owl-dots{
     display: none;
+}
+.owl-nav button{
+    border: unset;
+    
 }
 /**********section3*************/
 .bg-color{
