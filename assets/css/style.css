@@ -194,6 +194,28 @@
 	position: relative;
 }
 
+.slider-img-parent {
+  /*background: red;*/
+  height: 140px;
+}
+.slider-img-parent img{
+	object-fit: contain;
+	height: 100%;
+	width: 100% !important;
+	padding:  0;
+
+}
+.my-btn{
+	background:  blue;
+	padding: 20px;
+	transition: .3s;
+	border: unset;
+}
+.my-btn:hover{
+	background:yellow;
+	transition: .3s;
+}
+
 
 /*Mobile App*/
 .mobile-app{
@@ -456,6 +478,7 @@ border-radius: 31px;
     border-radius: 5px;
     padding-right: 25px;
     margin: 5px;
+    transition: .3s;
 }
 .owl-carousel3 .owl-dots .owl-dot:hover {
     height: 12px;
@@ -465,6 +488,7 @@ border-radius: 31px;
     border-radius: 5px;
     padding-right: 25px;
     margin: 5px;
+    transition: .3s;
 }
 .owl-carousel3 .owl-nav{
     display: none;
