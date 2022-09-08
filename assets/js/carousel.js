@@ -1,16 +1,34 @@
 
 $(document).ready(function () {
 // Hero section
+
 $('.owl-carousel').owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: false,
+    dots:3,
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 1
+        },
+        1000: {
+            items: 1
+        }
+    }
+});
+$('.owl-carousel1').owlCarousel({
     loop: true,
     margin: 10,
     nav: false,
     responsive: {
         0: {
-            items: 3
+            items: 1
         },
         600: {
-            items: 2
+            items: 1
         },
         1000: {
             items: 1
@@ -22,9 +40,10 @@ $('.owl-carousel2').owlCarousel({
     loop: true,
     margin: 10,
     nav: true,
+
     responsive: {
         0: {
-            items: 1
+            items: 3
         },
         600: {
             items: 3
@@ -42,10 +61,10 @@ $('.owl-carousel3').owlCarousel({
     dots: false,
     responsive: {
         0: {
-            items: 1
+            items: 3
         },
         600: {
-            items: 2
+            items: 3
         },
         1000: {
             items: 3
@@ -53,4 +72,5 @@ $('.owl-carousel3').owlCarousel({
     }
 });
 });
+
 
