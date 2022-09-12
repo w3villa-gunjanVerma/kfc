@@ -69,7 +69,7 @@
 
 }
 
-.feedback-pt {
+.feedback-ptb {
 	padding-top: 9rem;
 	padding-bottom: 7rem;
 }
@@ -129,7 +129,7 @@
 	display: none;
 }
 
-.owl-carousel1 .owl-dots .owl-dot {
+.hero-owl-carousel .owl-dots .owl-dot {
 	height: 12px;
 	width: 20px;
 	border: unset;
@@ -141,23 +141,23 @@
 
 }
 
-.owl-carousel1 .owl-dots .owl-dot:hover {
+.hero-owl-carousel .owl-dots .owl-dot:hover {
 	height: 12px;
 	width: 35px;
 	border: unset;
-	background: whitesmoke;
+	background: rgb(203, 178, 178);
 	border-radius: 5px;
 	padding-right: 25px;
 	transition: width 1s;
 }
 
-.owl-carousel1 .owl-nav.disabled {
+.hero-owl-carousel .owl-nav.disabled {
 	display: none;
 }
 .owl-theme .owl-dots {
 	text-align: left !important;
 }
-.owl-carousel1 .owl-carousel .owl-dots{
+.hero-owl-carousel .owl-carousel .owl-dots{
 	display: none;
 }
 /*******hero section************/
@@ -223,18 +223,32 @@
 	left: 0;
 	right: 0;
 	margin: auto;
+
 }
-.slider-img-parent {
+.menu-slider-img-parent {
 	height: 140px;
 }
 
-.slider-img-parent img {
+.menu-slider-img-parent img {
 	object-fit: contain;
 	height: 100%;
 	width: 100% !important;
 	padding: 0;
 }
-
+.menu-background{
+	background-color: white;
+	position: relative;
+}
+.menu-owl-carousel.owl-carousel.owl-nav button.owl-prev {
+	position: absolute;
+    left: -30px;
+    top: 0;
+    height: -webkit-fill-available;
+    border: unset;
+    background: transparent;
+    color: red;
+    font-size: 31px;
+}
 /*Mobile App*/
 .mobile-app {
 	background-image: linear-gradient(45deg, #ffb638, #ffa830);
@@ -516,13 +530,10 @@
 .feedback-border-radius {
 	border-radius: 25px;
 }
-.pt-12 {
-	padding-top: 12rem;
-}
 .cookie_border-radius{
 	border-radius:80px ;
 }
-.owl-carousel3 .owl-dots .owl-dot {
+.feedback-owl-carousel .owl-dots .owl-dot {
 	height: 12px;
 	width: 25px;
 	border: unset;
@@ -533,7 +544,7 @@
 	transition: .3s;
 }
 
-.owl-carousel3 .owl-dots .owl-dot:hover {
+.feedback-owl-carousel .owl-dots .owl-dot:hover {
 	height: 12px;
 	width: 35px;
 	border: unset;
@@ -543,8 +554,10 @@
 	margin: 5px;
 	transition: .3s;
 }
-
-.owl-carousel3 .owl-nav {
+.feedback-paragraph{
+	margin-bottom: 0%;
+}
+.feedback-owl-carousel .owl-nav {
 	display: none;
 }
 
@@ -561,6 +574,7 @@ ul>li {
 	font-family: 'FontAwesome';
 	font-weight: 700;
 	font-size: 60px;
+	
 }
 
 .parent {
@@ -568,7 +582,7 @@ ul>li {
 	top: -29px;
 }
 
-.owl-carousel3 .owl-item .item {
+.feedback-owl-carousel .owl-item .item {
 	width: 50%;
 }
 
@@ -611,6 +625,9 @@ ul>li {
 	left: 14px;
 	top: 15px;
 }
+.feedback-background{
+	background-color: rgb(252 223 196 / 39%);
+}
 
 .slider2 .owl-item.active.center .slider-card-sec-5 {
 	transform: scale(1.15);
@@ -630,7 +647,7 @@ ul>li {
 }
 
 /**************backgruod effects***************/
-.circle {
+.hero-circle {
 	position: absolute;
 	background-color: #e41313;
 	height: 210px;
@@ -642,7 +659,7 @@ ul>li {
 	z-index: -1;
 }
 
-.circle-donut {
+.hero-circle-donut {
 	position: absolute;
 	background-color: #e41313;
 	height: 288px;
@@ -656,7 +673,7 @@ ul>li {
 	bottom: -78px;
 }
 
-.inside-donut {
+.hero-inside-donut {
 	position: absolute;
 	background-color: #010000;
 	height: 151px;
@@ -669,7 +686,7 @@ ul>li {
 	z-index: -1;
 }
 
-.circle-donut-upper {
+.hero-circle-donut-upper {
 	position: absolute;
 	background-color: #dca517;
 	height: 288px;
@@ -682,7 +699,7 @@ ul>li {
 	left: 662px;
 }
 
-.inside-donut-upper {
+.hero-inside-donut-upper {
 	position: absolute;
 	background-color: #010000;
 	height: 151px;
@@ -696,7 +713,7 @@ ul>li {
 	left: 76px;
 }
 
-.square {
+.hero-square {
 	position: absolute;
 	background-color: #010000;
 	height: 656px;
@@ -741,19 +758,19 @@ ul>li {
 }
 /***************MEDIA QUERY************/
 @media screen and (max-width: 767px) {
-	.circle-donut-upper {
+	.hero-circle-donut-upper {
 		display: none;
 	}
 
-	.circle {
+	.hero-circle {
 		display: none;
 	}
 
-	.circle-donut {
+	.hero-circle-donut {
 		display: none;
 	}
 
-	.square {
+	.hero-square {
 		display: none;
 	}
 
@@ -776,11 +793,14 @@ ul>li {
 	.hero-head-font {
 		font-size: 41px;
 	}
+	.offer-overflow{
+		overflow: hidden;
+	}
 
 	.kfc-logo {
 		font-size: 65px;
 	}
-	.content-center{
+	.hero-content-center{
 		text-align: center;
 	}
 	/**********MENU SECTION************/

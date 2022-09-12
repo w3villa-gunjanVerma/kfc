@@ -19,7 +19,7 @@ $('.owl-carousel').owlCarousel({
         }
     }
 });
-$('.owl-carousel1').owlCarousel({
+$('.hero-owl-carousel').owlCarousel({
     loop: true,
     margin: 10,
     nav: false,
@@ -36,10 +36,11 @@ $('.owl-carousel1').owlCarousel({
     }
 });
 //food list
-$('.owl-carousel2').owlCarousel({
+$('.menu-owl-carousel').owlCarousel({
     loop: true,
     margin: 10,
     nav: true,
+    dots:false,
 
     responsive: {
         0: {
@@ -54,7 +55,7 @@ $('.owl-carousel2').owlCarousel({
     }
 });
 //feedback
-$('.owl-carousel3').owlCarousel({
+$('.feedback-owl-carousel').owlCarousel({
     loop: true,
     margin: 20,
     nav: true,
