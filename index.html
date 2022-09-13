@@ -27,29 +27,33 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body style="overflow-x: hidden;">
+<body class="body-overflow">
     <div class="bg-danger">
         <div class="container-md container-fluid ">
-            <nav class="navbar navbar-light text-white">
-                <div class="col-md-6 col-12">
-                    <h2 class="kfc-logo">KFC</h2>
-                </div>
-                <div id="nav" class="links">
-                    <a class="navbar-brand text-white" href="#">ABOUT US</a>
-                    <a class="navbar-brand text-white" href="#">FIND US</a>
-                    <a class="navbar-brand text-white" href="#">ALL CAMPAIGNS</a>
-                    <a class="navbar-brand text-white font-weight-bold nav-circle text-center margin-top-left"
-                        href="#"><i class="fa fa-user-o" style="font-size:27px;color:red"></i></a>
-                    <a class="navbar-brand text-white font-weight-bold nav-circle text-center " href="#"><i
-                            class="fa fa-shopping-cart" aria-hidden="true" style="font-size:29px;color:red"></i></a>
+            <header class="navbar-light text-white ">
+                <div class="row">
+                    <div class="col-md-6 col-12">
+                        <h2 class="kfc-logo">KFC</h2>
+                    </div>
 
+                    <div class="col-md-6 d-flex justify-content-end align-items-center">
+                       
+                            <a class="navbar-brand text-white" href="#">ABOUT US</a>
+                        <a class="navbar-brand text-white" href="#">FIND US</a>
+                        <a class="navbar-brand text-white" href="#">ALL CAMPAIGNS</a>
+                        <a class="navbar-brand text-white font-weight-bold nav-circle text-center margin-top-left"
+                            href="#"><i class="fa fa-user-o nav-icon" ></i></a>
+                        <a class="navbar-brand text-white font-weight-bold nav-circle text-center" href="#"><i
+                                class="fa fa-shopping-cart nav-icon" aria-hidden="true" ></i></a>
+
+                    </div>
                 </div>
                 <div id="menu" onclick="onClickMenu()">
-                    <div id="bar1" class="bar"></div>
+                    <div ibg-dangerd="bar1" class="bar"></div>
                     <div id="bar2" class="bar"></div>
                     <div id="bar3" class="bar"></div>
                 </div>
-            </nav>
+            </header>
         </div>
     </div>
     <section class="bg-danger hero-position">
@@ -149,7 +153,7 @@
     </section>
 
 
-    <section id="slider" class="menu-background">
+    <section id="slider" class="menu-background ">
         <div class="container ">
             <div class="pb-4">
                 <div class="text-center"><a><button type="button"
@@ -197,7 +201,7 @@
                         </div>
                         <div class="slider-card">
                             <div class="menu-slider-img-parent">
-                                <img src="../KFC/assets/images/pngwing.com (8).png" style="">
+                                <img src="../KFC/assets/images/pngwing.com (8).png" >
                             </div>
                             <div class="text-center font-weight-bold pb-1"><span>FRIES</span></div>
                         </div>
@@ -207,20 +211,20 @@
         </div>
     </section>
 
-    <section class="offer-backgroud offer-overflow">
+    <section class="offer-backgroud offer-overflow offer-overflow-hidden">
         <div class="container">
             <div class="ptb-5">
                 <div class="row">
 
                     <div class="col-md-4">
                         <div class="offer-slider-position offer-card-color">
-                            <div class="slider-card">
-    
+                            <div class="slider-card slider-card-padding">
+
                                 <div class="owl-carousel anyday-offer-shadow">
                                     <div class="slider-card">
-    
+
                                         <div class="d-flex slider-card-margin">
-                                            <div>
+                                            <div class="offer-margin-right" >
                                                 <p class="offer-card-heading">ANY DAY OFFERS</p>
                                                 <P class="offer-font-family">NEW PHENOMENON BURGER TASTE</P>
                                             </div>
@@ -229,11 +233,11 @@
                                                     class="offer-burger">
                                             </div>
                                         </div>
-    
+
                                     </div>
                                     <div class="slider-card">
                                         <div class="d-flex slider-card-margin">
-                                            <div>
+                                            <div class="offer-margin-right">
                                                 <p class="offer-card-heading">ANY DAY OFFERS</p>
                                                 <P class="offer-font-family">NEW PHENOMENON BURGER TASTE</P>
                                             </div>
@@ -242,11 +246,11 @@
                                                     class="offer-burger">
                                             </div>
                                         </div>
-    
+
                                     </div>
                                     <div class="slider-card">
                                         <div class="d-flex slider-card-margin">
-                                            <div>
+                                            <div class="offer-margin-right">
                                                 <p class="offer-card-heading">ANY DAY OFFERS</p>
                                                 <P class="offer-font-family">NEW PHENOMENON BURGER TASTE</P>
                                             </div>
@@ -255,11 +259,11 @@
                                                     class="offer-burger">
                                             </div>
                                         </div>
-    
+
                                     </div>
                                     <div class="slider-card">
                                         <div class="d-flex slider-card-margin">
-                                            <div>
+                                            <div class="offer-margin-right">
                                                 <p class="offer-card-heading">ANY DAY OFFERS</p>
                                                 <P class="offer-font-family">NEW PHENOMENON BURGER TASTE</P>
                                             </div>
@@ -268,188 +272,194 @@
                                                     class="offer-burger">
                                             </div>
                                         </div>
-    
+
                                     </div>
-    
-    
-    
-    
+
+
+
+
                                 </div>
-    
-    
-    
+
+
+
                             </div>
                         </div>
-    
+
                     </div>
                     <div class="col-md-4">
-                        <div class="ptb-4">
+                        <div class="">
                             <div class="offer-slider-position2 card-red">
-                                <div class="slider-card">
+                                <div class="slider-card slider-card-padding">
                                     <div class="owl-carousel4">
                                         <div class="owl-carousel anyday-offer-shadow">
                                             <div class="slider-card">
                                                 <div class="d-flex slider-card-margin">
-                                                    <div>
+                                                    <div class="offer-margin-right">
                                                         <p class="offer-card-heading text-white">OTHER FLAVORS</p>
-                                                        <P class="font-family text-white">NEW PHENOMENON BURGER TASTE</P>
+                                                        <P class="font-family text-white">NEW PHENOMENON BURGER TASTE
+                                                        </P>
                                                     </div>
-    
+
                                                     <div class="back-circle-brown">
                                                         <img src="../KFC/assets/images/cookie.avif"
                                                             class="cookie_border-radius offer-cookie">
                                                     </div>
-    
+
                                                 </div>
-    
+
                                             </div>
                                             <div class="slider-card">
                                                 <div class="d-flex slider-card-margin">
-                                                    <div>
+                                                    <div class="offer-margin-right">
                                                         <p class="offer-card-heading text-white">ANY DAY OFFERS</p>
-                                                        <P class="font-family text-white">NEW PHENOMENON BURGER TASTE</P>
+                                                        <P class="font-family text-white">NEW PHENOMENON BURGER TASTE
+                                                        </P>
                                                     </div>
                                                     <div class="back-circle-brown">
                                                         <img src="../KFC/assets/images/cookie.avif"
                                                             class="cookie_border offer-cookie">
                                                     </div>
                                                 </div>
-    
+
                                             </div>
                                             <div class="slider-card">
                                                 <div class="d-flex slider-card-margin">
-                                                    <div>
+                                                    <div class="offer-margin-right">
                                                         <p class="offer-card-heading text-white">ANY DAY OFFERS</p>
-                                                        <P class="font-family text-white">NEW PHENOMENON BURGER TASTE</P>
+                                                        <P class="font-family text-white">NEW PHENOMENON BURGER TASTE
+                                                        </P>
                                                     </div>
                                                     <div class="back-circle-brown">
                                                         <img src="../KFC/assets/images/cookie.avif"
                                                             class=" cookie_border-radius offer-cookie">
                                                     </div>
                                                 </div>
-    
+
                                             </div>
                                             <div class="slider-card">
                                                 <div class="d-flex slider-card-margin">
-                                                    <div>
+                                                    <div class="offer-margin-right">
                                                         <p class="offer-card-heading text-white">ANY DAY OFFERS</p>
-                                                        <P class="font-family text-white">NEW PHENOMENON BURGER TASTE</P>
+                                                        <P class="font-family text-white">NEW PHENOMENON BURGER TASTE
+                                                        </P>
                                                     </div>
                                                     <div class="back-circle-brown">
                                                         <img src="../KFC/assets/images/cookie.avif"
                                                             class=" cookie_border-radius offer-cookie">
                                                     </div>
                                                 </div>
-    
+
                                             </div>
-    
-    
+
+
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-    
+
                     </div>
                     <div class="col-md-4">
                         <div class="offer-slider-position offer-card-color">
-                            <div class="slider-card">
+                            <div class="slider-card slider-card-padding">
                                 <div class="owl-carousel anyday-offer-shadow">
                                     <div class="slider-card">
                                         <div class="d-flex slider-card-margin">
-                                            <div>
+                                            <div class="offer-margin-right">
                                                 <p class="offer-card-heading">FIND A KFC STORE NEAR YOU</p>
                                                 <P class="font-family">NEW PHENOMENON BURGER TASTE</P>
                                             </div>
-                                            <div class="slider-card-yellow">
+                                            <div class="slider-card-yellow ">
                                                 <div class="back-circle-grey">
-                                                    <img src="../KFC/assets/images/googlemap.png" class="offer-map">
+                                                    <img src="../KFC/assets/images/googlemap.png" class="h-100 w-100">
                                                 </div>
                                             </div>
                                         </div>
-    
+
                                     </div>
                                     <div class="slider-card">
                                         <div class="d-flex slider-card-margin">
-                                            <div>
+                                            <div class="offer-margin-right">
                                                 <p class="offer-card-heading">FIND A KFC STORE NEAR YOU</p>
                                                 <P class="font-family">NEW PHENOMENON BURGER TASTE</P>
                                             </div>
-    
-                                            <div class="slider-card-yellow">
+                                            <div class="slider-card-yellow ">
                                                 <div class="back-circle-grey">
-                                                    <img src="../KFC/assets/images/googlemap.png" class="offer-map">
+                                                    <img src="../KFC/assets/images/googlemap.png" class="h-100 w-100">
                                                 </div>
                                             </div>
+                                           
                                         </div>
-    
+
                                     </div>
                                     <div class="slider-card">
                                         <div class="d-flex slider-card-margin">
-                                            <div>
+                                            <div class="offer-margin-right">
                                                 <p class="offer-card-heading">FIND A KFC STORE NEAR YOU</p>
                                                 <P class="font-family">NEW PHENOMENON BURGER TASTE</P>
                                             </div>
-                                            <div class="slider-card-yellow">
+                                            <div class="slider-card-yellow ">
                                                 <div class="back-circle-grey">
-                                                    <img src="../KFC/assets/images/googlemap.png" class="offer-map">
+                                                    <img src="../KFC/assets/images/googlemap.png" class="h-100 w-100">
                                                 </div>
                                             </div>
                                         </div>
-    
+
                                     </div>
                                     <div class="slider-card">
                                         <div class="d-flex slider-card-margin">
-                                            <div>
+                                            <div class="offer-margin-right">
                                                 <p class="offer-card-heading">FIND A KFC STORE NEAR YOU</p>
                                                 <P class="font-family">NEW PHENOMENON BURGER TASTE</P>
                                             </div>
-                                            <div class="slider-card-yellow">
+                                            <div class="slider-card-yellow ">
                                                 <div class="back-circle-grey">
-                                                    <img src="../KFC/assets/images/googlemap.png" class="offer-map">
+                                                    <img src="../KFC/assets/images/googlemap.png" class="h-100 w-100">
                                                 </div>
                                             </div>
                                         </div>
-    
+
                                     </div>
-    
-    
+
+
                                 </div>
                             </div>
                         </div>
-    
+
                     </div>
                 </div>
-                <div class="">
+                <div class="mt-4">
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="offer-card-color anyday-offer-shadow">
-                                <div class="d-flex m-3">
-                                    <div>
+                            <div class="offer-card-color anyday-offer-shadow offer-card-padding">
+                                <div class="d-flex">
+                                    <div class="offer-margin-right">
                                         <p class="offer-card-para-font">CRISPY AND FRESH CHICKEN MASTER CHEF</p>
-                                        <div class="offer-btn-mb">
+                                        <div class="offer-real-chicken-btn">
                                             <button type="button"
-                                                class="btn btn-danger text-white offer-sec-btn font-weight-bold">100% REAL
+                                                class="btn btn-danger text-white offer-sec-btn font-weight-bold">100%
+                                                REAL
                                                 CHICKEN</button>
                                         </div>
                                     </div>
-                                    <div>
+                                    <div class="offer-cook-img">
                                         <img src="../KFC/assets/images/mancooking.jpg" class="w-100 h-100 img-radius">
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="offer-card-color">
-                                <div class="d-flex m-3">
-                                    <div class="">
-                                        <p class="offer-card-para-font" style="padding-bottom: 58px;">DO YOU WANT TO BE A
-                                            HOPE
-                                        </p>
-                                        <div class="offer-btn-mb">
-                                            <button type="button"
-                                                class="btn btn-danger text-white offer-sec-btn font-weight-bold">SEE
-                                                MORE</button>
+                            <div class="offer-padding-top">
+                                <div class="offer-card-color offer-card-padding anyday-offer-shadow">
+                                    <div class="d-flex">
+                                        <div class="offer-margin-right">
+                                            <p class="offer-card-para-font"">DO YOU WANT TO BE A
+                                                HOPE
+                                            </p>
+                                            <div class=" offer-seemore-btn">
+                                                <button type="button"
+                                                    class="btn btn-danger text-white offer-sec-btn font-weight-bold">SEE
+                                                    MORE</button>
                                         </div>
     
                                     </div>
@@ -462,6 +472,7 @@
                     </div>
                 </div>
             </div>
+        </div>
         </div>
         <div class="offer-back-circle"></div>
         <div class="offer-inside-donut"></div>
@@ -523,28 +534,27 @@
         </div>
     </section>
 
-    <section class="feedback-background">
+    <section class="feedback-background feedback-padding-bottom">
         <div class="container">
             <div class="feedback-ptb">
                 <div class="row">
-                    <div class="col-md-6 col-sm-6">
+                    <div class="col-md-6 col-sm-12">
                         <div class="row py-4">
-                            <div class="col-md-6">
-                                <div
-                                    class="bg-white pl-3 pt-3 pb-1 pr-1 feedback-border-radius feedback-shadow feedback-margin-bottom">
-                                    <h6 class="feedback padding-left">FrancoEjder</h6>
-                                    <p class="pl pr font-15">Lrem ipsum doler sit amet,adipiscin dgf Lorem Ipsum
+                            <div class="col-md-6 col-md-12">
+                                <div class="bg-white feedback-border-radius feedback-shadow feedback-margin-bottom p-3">
+                                    <h6 class="feedback ">FrancoEjder</h6>
+                                    <p class="pl font-15 pl-5">Lrem ipsum doler sit amet,adipiscin dgf Lorem Ipsum
                                     </p>
                                     <div class="twitter-circle social-connect-circle">
                                         <i class="fa fa-twitter" aria-hidden="true"></i>
-    
+
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <div class="bg-white pl-3 pt-3 pb-1 pr-1 feedback-border-radius feedback-shadow">
-                                    <h6 class="feedback  padding-left">aysegul</h6>
-                                    <p class="pl pr font-15">Lrem ipsum doler sit amet,adipiscin dgf Lorem Ipsum </p>
+                            <div class="col-md-6 col-md-12 feedback-padding-top">
+                                <div class="bg-white feedback-border-radius feedback-shadow p-3">
+                                    <h6 class="feedback  ">aysegul</h6>
+                                    <p class="pl font-15 pl-5">Lrem ipsum doler sit amet,adipiscin dgf Lorem Ipsum </p>
                                     <div class="twitter-circle social-connect-circle">
                                         <i class="fa fa-twitter" aria-hidden="true"></i>
                                     </div>
@@ -555,8 +565,8 @@
                             <div class="owl-carousel">
                                 <div class="p-3 bg-white feedback-border-radius position">
                                     <h6 class="feedback ">aysegul</h6>
-                                    <div class="">
-                                        <img src="assets/images/smiley.jpg" style="height: 140px;">
+                                    <div class="feedback-pic">
+                                        <img src="assets/images/smiley.jpg" style="height: 123px;">
                                     </div>
                                     <div class="instagram-circle social-connect-circle">
                                         <i class="fa fa-instagram" aria-hidden="true"></i>
@@ -564,9 +574,10 @@
                                 </div>
                                 <div class="p-3 bg-white feedback-border-radius">
                                     <h6 class="feedback">aysegul</h6>
-                                    <p class="font-15">Lrem ipsum doler sit amet,adipiscin dgf Lorem Ipsum is simply dummy
+                                    <p class="font-15">Lrem ipsum doler sit amet,adipiscin dgf Lorem Ipsum is simply
+                                        dummy
                                         text of the printing
-    
+
                                     </p>
                                     <div class="facebook-circle social-connect-circle">
                                         <i class="fa fa-facebook" aria-hidden="true"></i>
@@ -574,9 +585,10 @@
                                 </div>
                                 <div class="p-3 bg-white feedback-border-radius ">
                                     <h6 class="feedback ">aysegul</h6>
-                                    <p class="font-15">Lrem ipsum doler sit amet,adipiscin dgf Lorem Ipsum is simply dummy
+                                    <p class="font-15">Lrem ipsum doler sit amet,adipiscin dgf Lorem Ipsum is simply
+                                        dummy
                                         text of the printing
-    
+
                                     </p>
                                     <div class="facebook-circle social-connect-circle">
                                         <i class="fa fa-facebook" aria-hidden="true"></i>
@@ -584,9 +596,10 @@
                                 </div>
                                 <div class="p-3 bg-white feedback-border-radius">
                                     <h6 class="feedback ">aysegul</h6>
-                                    <p class=" font-15">Lrem ipsum doler sit amet,adipiscin dgf Lorem Ipsum is simply dummy
+                                    <p class=" font-15">Lrem ipsum doler sit amet,adipiscin dgf Lorem Ipsum is simply
+                                        dummy
                                         text of the printing
-    
+
                                     </p>
                                     <div class="facebook-circle social-connect-circle">
                                         <i class="fa fa-facebook" aria-hidden="true"></i>
@@ -594,9 +607,10 @@
                                 </div>
                                 <div class="p-3 bg-white feedback-border-radius">
                                     <h6 class="feedback ">aysegul</h6>
-                                    <p class=" font-15">Lrem ipsum doler sit amet,adipiscin dgf Lorem Ipsum is simply dummy
+                                    <p class=" font-15">Lrem ipsum doler sit amet,adipiscin dgf Lorem Ipsum is simply
+                                        dummy
                                         text of the printing
-    
+
                                     </p>
                                     <div class="facebook-circle social-connect-circle">
                                         <i class="fa fa-facebook" aria-hidden="true"></i>
@@ -604,9 +618,10 @@
                                 </div>
                                 <div class="p-3 bg-white feedback-border-radius">
                                     <h6 class="feedback">aysegul</h6>
-                                    <p class=" font-15">Lrem ipsum doler sit amet,adipiscin dgf Lorem Ipsum is simply dummy
+                                    <p class=" font-15">Lrem ipsum doler sit amet,adipiscin dgf Lorem Ipsum is simply
+                                        dummy
                                         text of the printing
-    
+
                                     </p>
                                     <div class="facebook-circle social-connect-circle">
                                         <i class="fa fa-facebook" aria-hidden="true"></i>
@@ -614,9 +629,10 @@
                                 </div>
                                 <div class="p-3 bg-white feedback-border-radius">
                                     <h6 class="feedback ">aysegul</h6>
-                                    <p class=" font-15">Lrem ipsum doler sit amet,adipiscin dgf Lorem Ipsum is simply dummy
+                                    <p class=" font-15">Lrem ipsum doler sit amet,adipiscin dgf Lorem Ipsum is simply
+                                        dummy
                                         text of the printing
-    
+
                                     </p>
                                     <div class="facebook-circle social-connect-circle">
                                         <i class="fa fa-facebook" aria-hidden="true"></i>
@@ -624,11 +640,11 @@
                                 </div>
                             </div>
                         </div>
-    
-    
+
+
                     </div>
-    
-                    <div class="col-md-6 col-sm-6">
+
+                    <div class="col-md-6 col-sm-12">
                         <div class="iframe-back">
                             <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY"
                                 class="feedback-vdo">
@@ -649,32 +665,31 @@
                     <div class="col-md-4 footer-text-padding-bottom">
                         <div class="d-flex h-100 justify-content-center align-items-center  text-white">
                             <i class="fa fa-whatsapp icon-font" aria-hidden="true"></i>
-                            <p class="font-weight-bold" style="margin-bottom: 0;"> 444 3 555</p>
+                            <p class="font-weight-bold"> 444 3 555</p>
                         </div>
 
                     </div>
                     <div class="col-md-4 footer-text-padding-bottom">
                         <div class="d-flex h-100 justify-content-center align-items-center text-white"><i
                                 class="icon-font fa fa-home" aria-hidden="true"></i>
-                            <p class="font-weight-bold" style="margin-bottom:0;">0(212) 707 00</p>
+                            <p class="font-weight-bold">0(212) 707 00</p>
                         </div>
 
                     </div>
 
                 </div>
-                <div class="col-md-6 footer-text-align footer-text-padding-bottom mt-3">
+                <div class="col-md-6 d-flex justify-content-md-end icon-justify-center align-items-center">
                     <a class="navbar-brand text-white small-circle" href="#"><i
-                            class="fa fa-facebook icon-alignment-center h-100" aria-hidden="true"
-                            style="color: white;"></i></a>
+                            class="fa fa-facebook icon-alignment-center h-100 text-white" aria-hidden="true"
+                            ></i></a>
                     <a class="navbar-brand text-white small-circle" href="#"><i
-                            class="fa fa-twitter icon-alignment-center h-100" aria-hidden="true"
-                            style="color: white;"></i></a>
+                            class="fa fa-twitter icon-alignment-center h-100" aria-hidden="true"></i></a>
                     <a class="navbar-brand text-white small-circle" href="#"><i
                             class="fa fa-youtube-play icon-alignment-center h-100" aria-hidden="true"
-                            style="color: white"></i></a>
+                           ></i></a>
                     <a class="navbar-brand text-white small-circle " href="#"><i
                             class="fa fa-instagram icon-alignment-center h-100" aria-hidden="true"
-                            style="color: white;"></i></a>
+                            ></i></a>
 
                 </div>
             </div>
@@ -683,7 +698,7 @@
 
     <section class="bg-dark alignment-center">
         <div class="container">
-            <div class="row footer-ptb">
+            <div class="row footer-ptb about-text-center">
                 <div class="col-md-3">
                     <h6 class="text-white font-weight-bold">ABOUT</h6>
                     <ul class="list-unstyled text-secondary">
@@ -715,7 +730,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="d-md-flex">
+            <div class="d-md-flex about-text-center">
                 <div>
                     <p class="text-secondary">Copyright #KFC All rights reserve</p>
                 </div>
