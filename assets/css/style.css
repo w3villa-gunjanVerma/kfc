@@ -11,10 +11,6 @@
 .offer-overflow-hidden{
 	overflow-x: hidden;
 }
-.nav-icon{
-	color: red;
-	font-size: 27px;
-}
 .ln-1 {
 	line-height: 1;
 }
@@ -169,7 +165,41 @@ section.feedback-background p{
 .hero-owl-carousel .owl-carousel .owl-dots{
 	display: none;
 }
-/*******hero section************/
+
+/*+++++++++++++++++++++
+ navigation section 
+ ++++++++++++++++++++++*/
+
+.navigation{
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	padding: 8px 0px;
+	max-height: 70px;
+	transition: 1s ease-in-out ;
+}
+
+.nav-link-items{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.toggle-btn{
+	position: absolute;
+	top: 20px;
+    right: 20px;
+    font-size: 30px;
+	display: none;
+    /* padding-right: 20px; */
+}
+.collapse-toggle{
+	max-height: 300px;
+}
+
+/*+++++++++++++++++++++++++++
+HERO SECTION
+++++++++++++++++++++++++++++*/
 .hero-head-font {
 	font-family: 'Titillium Web';
 	font-size: 59px;
@@ -215,13 +245,29 @@ section.feedback-background p{
 	font-family: 'FontAwesome';
 	font-weight: 700;
 	font-size: 80px;
-	margin: 0;
 }
 
 .navbar {
 	padding: 0;
 }
-
+.nav-icon{
+	color: red;
+	font-size: 20px;
+}
+.header-icon-alignment{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.hero-para-margin-right{
+	margin-right: 95px;
+}
+/*++++++++++++++++++
+HAMBURGER
+++++++++++++++++++++*/
+.navbar-mobile{
+	max-height:550px;
+}
 /**********MENUS************/
 
 .menu-btn {
@@ -395,8 +441,12 @@ section.feedback-background p{
 	padding-top: 30px;
 }
 .offer-seemore-btn{
-	padding-top: 67px;
+	padding-top: 65px !important;
 }
+/* .offer-cook-img{
+	width: 100px !important;
+	height: 100px !important;
+} */
 .offer-card-heading {
 
 	font-size: 25px;
@@ -404,6 +454,10 @@ section.feedback-background p{
 	font-family: 'Titillium Web';
 	line-height: 1.2;
 	margin: 0;
+}
+.offer-image{
+	width: 354px;
+    height: 190px;
 }
 .slider2 .owl-item.active.center .slider-card {
 	transform: scale(1.15);
@@ -608,11 +662,10 @@ ul>li {
 }
 .iframe-back {
 	background-color: white;
-	height: 100%;
+	height: 250px;
 	width: 100%;
 	position: relative;
 	border-radius: 35px;
-
 }
 
 .feedback-vdo {
@@ -757,10 +810,16 @@ ul>li {
 	border-radius: 10px;
 }
 
-/**********hamburger****************/
 
 @media screen and (max-width: 991px){
 
+	/*++++++++++++++++++
+			header
+	++++++++++++++++++*/
+
+	.kfc-logo-font{
+		font-size: 60px;
+	}
 	/*********HERO SECTION *************/
 		.hero-circle-donut-upper {
 			display: none;
@@ -774,9 +833,12 @@ ul>li {
 			display: none;
 		}
 		.hero-head-font {
-			font-family: 'Titillium Web';
-			font-size: 44px;
-			font-weight: 700px;
+
+			font-size: 38px;
+		}
+		.btn-hero-991{
+			height: 53px;
+			width: 181px;
 		}
 		/**************FEEDBACK PIC***********/
 		.feedback-pic{
@@ -784,6 +846,19 @@ ul>li {
 		}
 		.feedback-padding-top{
 			padding-top: 15px;
+		}
+		.back-circle-yellow{
+		
+			height: 170px;
+   			 width: 181px;
+			
+		}
+		.offer-margin{
+			margin-top: 23px;
+    		margin-bottom: 23px;
+		}
+		.offer-img-margin{
+			margin-right: 150px;
 		}
 		/**********footer********/
 		.nav-bottom {
@@ -795,13 +870,16 @@ ul>li {
 			font-size: 27px;
 			padding-right: 4px;
 		}
+		.icon-margin-bottom{
+			margin-bottom: 10px;
+		}
 		/***********offer**********/
 	
-		.back-circle-brown {
+		/*.back-circle-brown {
 		
 			height: 81px;
 			
-		}
+		}*/
 
 		.offer-card-para-font {
 			font-size: 20px;
@@ -813,7 +891,7 @@ ul>li {
 		.offer-seemore-btn {
 			padding-top: 52px;
 		}
-		.back-circle-yellow{
+		/*.back-circle-yellow{
 			height: 83px;
 			width: 193px;
 		}
@@ -821,13 +899,7 @@ ul>li {
 			height: 77px;
 			width: 63px;
 			
-		}
-		}
-		.offer-cook-img{
-			width: 152px;
-			/* object-fit: contain; */
-			height: 90px;
-		}
+		}*/
 		.offer-card-heading{
 			font-size: 21px;
 		}
@@ -853,7 +925,7 @@ ul>li {
 		}
 		.mobile-app .mobile-right-area .mobile-download a i {
 			width: 35px;
-			font-size: 36px;
+			font-size: 27px;
 		}
 		.font-14{
 			font-size: 13px;
@@ -867,6 +939,14 @@ ul>li {
 /**********signup section**************/
 @media screen and (max-width: 767px) {
 
+	.navigation, .nav-link-items{
+		flex-direction: column;
+	}
+
+	.toggle-btn{
+		display: block;
+
+	}
 
 	.mobile-app .img-parent {
 		position: unset;
@@ -911,14 +991,7 @@ ul>li {
 	.feedback-margin-bottom{
 		margin-bottom: 1rem;
 	}
-	.feedback-vdo {
-		height: 238px;
-		border-radius: 31px;
-		width: 98%;
-		position: absolute;
-		left: 2px;
-		top: 18px;
-	}
+
 	.feedback-padding-bottom{
 		padding-bottom: 80px;
 	}
@@ -1036,7 +1109,7 @@ ul>li {
 	}
 
 	.hero-head-font {
-		font-size: 41px;
+		font-size: 34px;
 	}
 	.offer-overflow{
 		overflow: hidden;
@@ -1047,6 +1120,11 @@ ul>li {
 	}
 	.hero-content-center{
 		text-align: center;
+	}
+	.btn-hero-767 {
+		height: 53px;
+		width: 190px;
+		margin-bottom: 31px;
 	}
 	/**********MENU SECTION************/
 	.slider-img-parent:hover::after {
